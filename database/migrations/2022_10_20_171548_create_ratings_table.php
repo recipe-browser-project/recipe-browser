@@ -15,7 +15,13 @@ return new class extends Migration
     {
         Schema::create('ratings', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('recipe_id');
+            $table->boolean('liked');
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('recipe_id')->references('id')->on('recipes');
         });
     }
 

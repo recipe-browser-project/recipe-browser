@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Ingredient extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'name',
+        'calory_per_gram',
+    ];
+
+    public function recipes() {
+        return $this->belongsToMany(Recipe::class, 'ingredient_recipe');
+    }
 }
