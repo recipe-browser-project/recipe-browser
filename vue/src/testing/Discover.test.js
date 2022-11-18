@@ -32,3 +32,10 @@
 //         expect(wrapper.findComponent(About).exists()).toBe(true)
 //     })
 // })
+import { render } from "@testing-library/vue";
+import Discover from "../views/Discover.vue";
+
+test("It renders correctly", () => {
+    const { getByText } = render(Discover);
+    getByText("Discover");
+});
