@@ -27,6 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: cd vue
-    - run: npm i
+    - run: npm i --production=false
     - run: npm test
     - run: npm run build
