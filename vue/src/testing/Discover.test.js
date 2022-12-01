@@ -32,6 +32,7 @@
 //         expect(wrapper.findComponent(About).exists()).toBe(true)
 //     })
 // })
+import { test } from "vitest";
 import { render } from "@testing-library/vue";
 import Discover from "../views/Discover.vue";
 

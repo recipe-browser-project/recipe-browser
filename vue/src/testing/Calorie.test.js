@@ -1,3 +1,4 @@
+import { test } from "vitest";
 import { render } from "@testing-library/vue";
 import Calorie_friendly from "../views/Calorie_friendly.vue";
 
