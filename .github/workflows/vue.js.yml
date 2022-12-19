@@ -5,7 +5,7 @@ name: Vue.js Vite CI
 
 on:
   push:
-    branches: [ "main"]
+    branches: [ "main", "deployment-setup" ]
   pull_request:
     branches: [ "main" ]
 
