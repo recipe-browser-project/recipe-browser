@@ -41,7 +41,11 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+#     if: github.ref == 'refs/heads/main'
+    
+    defaults:
+      run:
+        working-directory: ./vue
 
     steps:
       - uses: actions/download-artifact@v2
