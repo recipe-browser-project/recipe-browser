@@ -4,7 +4,6 @@ import path from "path";
 // import istanbul from "vite-plugin-istanbul"
 
 export default defineConfig({
-    base: '/recipe-browser/',
     plugins: [
         vue(),
         // istanbul({
