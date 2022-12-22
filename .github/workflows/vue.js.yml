@@ -35,14 +35,14 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: ./vue/dist
 
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
 #     if: github.ref == 'refs/heads/main'
-    
+
     defaults:
       run:
         working-directory: ./vue
@@ -51,9 +51,9 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: ./vue/dist
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ github.token }}
-          publish_dir: ./dist
+          publish_dir: ./vue/dist
