@@ -5,7 +5,7 @@ name: Vue.js Vite CI
 
 on:
   push:
-    branches: [ "main"]
+    branches: [ "main", "deployment-setup" ]
   pull_request:
     branches: [ "main" ]
 
@@ -34,22 +34,5 @@ jobs:
       - run: npm test
       - uses: actions/upload-artifact@v2
         with:
-          name: production-files
-          path: ./dist
-
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-      - uses: actions/download-artifact@v2
-        with:
-          name: production-files
-          path: ./dist
-
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ github.token }}
-          publish_dir: ./dist
+          name: frontend-build
+          path: ./vue/dist
