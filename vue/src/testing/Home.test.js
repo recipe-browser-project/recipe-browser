@@ -4,5 +4,5 @@ import Home from "../views/Home.vue";
 
 test("It renders correctly", () => {
     const { getByText } = render(Home);
-    getByText("Home");
+    getByText("Explore different recipes");
 });

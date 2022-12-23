@@ -1,0 +1,123 @@
+{
+    "destinations": [
+        {
+            "name": "Breakfast Recipes",
+            "slug": "breakfast",
+            "image": "breakfast.jpg",
+            "id": 1,
+            "description":
+            "Breakfast is the most important meal of the day. It’s the perfect thing to wake-up to after a long, hard night of sleep. It is important because it tastes absolutely delicious, it’s an important source of energy for the day, and it helps with weight loss.\nBreakfast is by far the tastiest meal. Why? Because people can eat anything for breakfast. From a simple bowl of cereal to a filet mignon, it can all be done. Unlike dinner, breakfast can be sweet or salty. Of course breakfast CAN be eaten for dinner, but it just isn’t the same.\nAfter some six-ten hours of not eating, something needs to be consumed in order to not turn into a sloth. The last thing students need is to have to go to school on an empty stomach – it just makes school that much harder. Even just a few cheerios can make the difference.",
+            "experiences": [
+                {
+                    "name": "Roasted Potato and Chorizo",
+                    "slug": "roasted-potato-and-chorizo",
+                    "image": "roasted-potato.jpg",
+                    "description":
+                    "Heat oven to 425°F. On large rimmed baking sheet, toss onion, potatoes, poblano, and garlic with oil and 1/4 teaspoon each salt and pepper. Arrange in even layer and roast until golden brown and tender, 25 to 30 minutes.While vegetables roast, heat large nonstick skillet on medium. Add chorizo and cook, breaking up into tiny pieces, until browned and crisp around edges, 5 to 6 minutes; transfer to bowl. Add eggs to skillet and cook to desired doneness, 3 to 4 minutes for slightly runny yolks. Toss chorizo with vegetables, then scatter with Cheddar. Return to oven to melt if needed. Serve with eggs and tortillas if desired."
+                },
+                {
+                    "name": "Sausage and Egg Sandwiches",
+                    "slug": "sausage-and-egg-sandwiches",
+                    "image": "sausage-sandwich.jpg",
+                    "description":
+                    "Step 1\nHeat 2 tsp oil in large cast-iron skillet on medium. Add onion and cook 3 minutes. With wet hands, shape sausage into four 1/4-inch-thick patties, add to skillet with onion, and increase heat to medium-high. Flip onion and cook until just tender, 2 to 3 minutes more. Cook patties until browned, 2 to 3 minutes, then flip.\nStep 2\nSeparate onion slices into rings and arrange on top of patties, then top with Cheddar and continue cooking until sausage is cooked through, 2 to 3 minutes more.\nStep 3\nMeanwhile, heat remaining 2 teaspoons olive oil in large nonstick skillet on medium and cook eggs to desired doneness, 4 to 5 minutes for runny yolks. Top bottom halves of muffins with sausage, then eggs, pepper slices, and parsley."
+                },
+                {
+                    "name": "French Toast",
+                    "slug": "french-toast",
+                    "image": "french-toast.jpg",
+                    "description":
+                    "Step 1\nIn large, shallow bowl, whisk together eggs, milk, cinnamon, and vanilla.  \nStep 2\nWorking in batches, place 2 bread slices in egg mixture and let soak 2 minutes. Flip and soak 1 minute more (both sides of bread should be totally coated in mixture). \nStep 3\nMeanwhile, heat 1 tablespoon butter in large nonstick skillet on medium-low. Once melted, add soaked bread and cook until golden brown, 1 to 3 minutes per side; transfer to wire rack. While toast is cooking, soak next batch of challah slices. \nStep 4\nRepeat with remaining butter and bread. Serve topped with yogurt, berries, and syrup or honey if desired."
+                },
+                {
+                    "name": "Scrambled Eggs",
+                    "slug": "scrambled-eggs",
+                    "image": "scrambled-eggs.jpg",
+                    "description":
+                    "Step 1\nHeat butter (or oil) in a 10 to 12-in non-stick skillet on medium-low.\nStep 2\nIn a bowl, whisk together, eggs and ½ tsp each salt and pepper.\nStep 3\nAdd eggs to skillet and cook, stirring often until eggs are beginning to set.\nStep 4\nOnce the eggs are nearly set, add desired toppings (think cheese, cooked veggies, herbs, tender greens like spinach or baby kale)."
+                }
+            ]
+        },
+        {
+            "name": "Lunch Recipes",
+            "slug": "lunch",
+            "image": "lunch.jpg",
+            "id": 2,
+            "description":
+            "Lunch is an important meal for everyone. It provides energy and nutrients to keep the body and brain working efficiently through the afternoon. A packed lunch made at home can be a healthy and delicious choice and gives you control over the foods and ingredients included. So too can lunch eaten in a restaurant or canteen provided it follows the rules of a healthy diet.\nDietary surveys have shown that most people need to cut down on their intakes of saturated fat, salt and sugar, and increase our consumption of dietary fibre, fruits, vegetables and oily fish. Packing a healthy lunch each day is a great way to help you meet these goals and can also save you money.",
+            "experiences": [
+                {
+                    "name": "Steak Grain Bowls",
+                    "slug": "steak-grain-bowls",
+                    "image": "steak.jpeg",
+                    "description":
+                    "CHIMICHURRI MARINADE\nStep 1\nIn a food processor, pulse cilantro, parsley, oil, garlic, vinegar, lime juice, salt, a few cracks of black pepper, and red pepper flakes until combined and herbs are finely chopped. Pour 1/4 c. marinade into a resealable bag; reserve remaining marinade for serving. \nStep 2\nAdd steak to bag and massage marinade into steak. Let sit at room temperature at least 30 minutes or refrigerate up to 2 hours.  \nCREAMY JALAPEÑO SAUCE\nIn food processor or blender, combine jalapeño, avocado, sour cream, cilantro, garlic, and lime juice; season with salt and black pepper. Blend, adding water 1 tbsp. at a time if necessary, until smooth.\n\nBOWLS\nStep 1\nIn a medium pot over high heat, bring water and a couple large pinches of salt to a boil. Add farro, reduce heat to low, and simmer, covered, until tender, 20 to 30 minutes. Drain.\nStep 2\nMeanwhile, in a large skillet over medium-high heat, cook steak until desired degree of doneness, about 8 minutes per side for medium. Transfer steak to a cutting board and let rest 10 minutes. Slice against the grain into strips or bite-size pieces.\nStep 3\nIn same skillet over medium heat, cook corn, undisturbed, until charred on bottom, about 3 minutes. Stir and continue to cook until warmed through, about 2 minutes more. Add beans and cook, stirring, until combined and warmed through, about 1 minute.\nStep 4\nDivide arugula among bowls. Top with farro, corn and beans, steak, tomatoes, and avocado. Drizzle with reserved chimichurri and jalapeño sauce. Top with feta."
+                },
+                {
+                    "name": "Chicken Salad Sandwich",
+                    "slug": "chicken-salad-sandwich",
+                    "image": "chicken-salad.jpg",
+                    "description":
+                    "In a large pot, arrange the chicken in a single layer. Place lemon slices and dill sprigs on chicken and pour water over it, covering by at least an inch. Bring water to a boil, then reduce heat and simmer until cooked through, 10 minutes. Let rest 10 minutes, then slice into 1\" pieces.\nStep 2\nIn a large bowl, combine chicken, apple, onion, and celery.\nStep 3\nIn a medium bowl, whisk together mayonnaise, Dijon, and vinegar and season with salt and pepper.\nStep 4\nPour dressing over chicken mixture and toss.\nStep 5\nGarnish with chopped dill and serve on a baguette with lettuce."
+                },
+                {
+                    "name": "Caribbean Cobb Salmon Salad",
+                    "slug": "caribbean-cobb-salmon-salad",
+                    "image": "caribbean.jpg",
+                    "description":
+                    "Step 1\nIn a small bowl, mix brown sugar, soy sauce, onion powder, garlic powder, cayenne, thyme, ginger, allspice, and 4 teaspoons lime juice until a thick paste forms. Season each salmon fillet with a generous pinch of salt and black pepper. Rub fillets with 2 tablespoons seasoning paste and let sit 10 minutes; reserve remaining seasoning paste.\nStep 2\nIn a small bowl, whisk coconut milk, cilantro, 1/4 cup oil, remaining 2 teaspoons lime juice, and reserved seasoning paste; set dressing aside.\nStep 3\nIn a large skillet over medium-high heat, heat remaining 2 tablespoons oil. Cook salmon until flesh easily flakes with a fork, 2 to 3 minutes per side (the marinade will blacken as the salmon cooks). Transfer to a plate. \nStep 4\nArrange lettuce on a platter or divide among plates; season with a pinch of salt. Add rows or small piles of mango, bell pepper, avocado, scallions, cabbage, and chips. Sprinkle with cheese and top with salmon.\nStep 5\nDrizzle salad with half of dressing; season with a pinch of salt. Serve with remaining dressing alongside.\nStep 6\nMake Ahead: Dressing can be made 2 days ahead. Store in an airtight container and refrigerate. Let come to room temperature and whisk before serving.",
+                    "ingredients":
+                    "4 tsp. light brown sugar\n4 tsp. reduced-sodium soy sauce \n1 tbsp. onion powder\n2 tsp. garlic powder\n1 tsp. cayenne pepper\n1 tsp. dried thyme \n1 tsp. ground ginger\n1/2 tsp. ground allspice\n2 tbsp. plus 2 tsp. fresh lime juice, divided\n4 (4-oz.) salmon fillets \nKosher salt\nFreshly ground black pepper\n2/3 c. canned coconut milk \n2 tsp. chopped fresh cilantro \n1/4 c. plus 2 tbsp. neutral oil, divided \n2 large heads of romaine lettuce, chopped\n1 mango, peeled, finely chopped \n1 large red bell pepper, seeded, finely chopped\n1 avocado, sliced\n4 scallions, sliced \n1 c. chopped purple cabbage \n1 c. plantain chips \n3/4 c. cotija cheese"
+                },
+                {
+                    "name": "Tuna Macaroni Salad",
+                    "slug": "tuna-macaroni-salad",
+                    "image": "tuna-salad.jpg",
+                    "description":
+                    "Step 1\nIn a medium bowl, stir together onion, carrot, pickles, lemon juice, sugar, and ½ teaspoon salt. Set aside.\nStep 2\nIn the meantime, in a medium pot over medium heat, combine macaroni, 2 cups water, and remaining ½ teaspoon salt and bring to a boil. Cook, stirring frequently, until pasta is al dente, about 5 minutes. Drain immediately and let cool slightly.\nStep 3\nIn a large bowl, stir together tuna, mayo, paprika, and pepper. Fold in pasta and pickle mixture until well combined, then top with eggs.\nStep 4\nGarnish with scallion before serving."
+                }
+            ]
+        },
+        {
+            "name": "Dinner Recipes",
+            "slug": "dinner",
+            "image": "dinner.jpg",
+            "id": 3,
+            "description":
+            "Dinner helps us to enjoy our healthy life in many ways. It helps our organs to keep functioning. A healthy dinner protects us from many health issues. \nAs we are busy with our work schedules, sometimes it becomes difficult for us to get enough time for dinner. In that case, we, who are trying to lose our weight, think that it is better to skip our dinner. Do you know, this concept is completely against our healthy life?\n\nProper food is the basis of health and health is the foundation for a properly functioning metabolism and healthy weight loss. A healthy breakfast is an important start to the day and key to maintain weight loss. Lunch and dinner are important equally, keeping the metabolism up and keeping us from becoming famished.\n\nOur body is consistently working, even though at night when we are sleeping. Our heart is pumping for 24 hours. Breathing through lungs is a continuous process. All these functions remain for 24 hours. So it is essential to fuel our body even at night assuring enough capability of organs to perform their works.",
+            "experiences": [
+                {
+                    "name": "Black Bean Tostadas",
+                    "slug": "black-bean-tostadas",
+                    "image": "black-bean.jpg",
+                    "description":
+                    "Step 1\nPreheat oven to 350°. In a small saucepan over medium heat, add beans and 1 cup of water. Bring to a simmer and let simmer until beans are warmed through, about 10 minutes. Smash with a wooden spoon until most of the beans are smashed with some whole remaining. Add more water as needed to help create a smoother consistency. \nStep 2\nMeanwhile, place tostadas on a large baking sheet and sprinkle cheese evenly over each. Bake until cheese is melty, about 5 minutes. \nStep 3\nTop tostadas with beans, avocado slices, and hot sauce."
+                },
+                {
+                    "name": "Arroz Con Pollo",
+                    "slug": "arroz-con-pollo",
+                    "image": "arroz-con.png",
+                    "description":
+                    "Step 1\nPat chicken dry with paper towels, then season all over with salt and pepper. In a small bowl, combine cumin, oregano, garlic powder, and cayenne. Rub mixture into chicken. \nStep 2\nIn a large skillet over medium-high heat, heat oil. Add chicken and cook until golden, 5 minutes per side. Remove skillet and reserve on a plate. \nStep 3\nTo same skillet over medium heat, add onion and pepper. Cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more, then stir in tomato paste. \nStep 4\nAdd rice and cook until well coated and toasted, 3 minutes. Pour in chicken broth and diced tomatoes, and bay leaf, stirring up any bits from bottom of pan. Bring to a boil, then add chicken back to skillet. Reduce heat and let simmer, covered, until chicken is cooked through and rice is tender, 30 minutes. Stir occasionally to make sure rice is not sticking to bottom of pan. Add more water or broth as necessary. \nStep 5\nRemove bay leaf and serve with cilantro."
+                },
+                {
+                    "name": "Buffalo Chicken Pizza",
+                    "slug": "buffalo-chicken-pizza",
+                    "image": "pizza.jpg",
+                    "description":
+                    "Step 1\nPreheat oven to 500°. Brush two large baking sheets with vegetable oil and sprinkle each with a layer of cornmeal.\nStep 2\nPlace butter in a medium microwave-safe bowl. Microwave until melted, 20 to 30 seconds. Whisk in hot sauce and garlic powder until combined. Pour half of the buffalo sauce over chicken and toss to coat.\nStep 3\nOn a lightly floured surface, shape each half of pizza dough into a round ball, then press down the center of each to create a 1/2\" crust. With the dough resting on the back of your hands and your knuckles, gently stretch dough out with the help of gravity by moving your hands inch by inch along the crust. Transfer to prepared baking sheets.\nStep 4\nAdd half of the remaining buffalo sauce to each pizza and spread all over the dough (leaving the outer 1\" bare). Divide sauced chicken, torn mozzarella, blue cheese, and red onion evenly between the pizzas.\nStep 5\nBake pizzas until crust is golden and cheese is melty, 15 to 17 minutes. Garnish with green onions and a drizzle of hot sauce (if using) and serve immediately.",
+                    "ingredients":
+                        "1 lb. pizza dough, divided in half\ncornmeal, for pan\n4 tbsp. butter\n1/4 c. hot sauce (such as Frank's), plus more for drizzling (optional)\n1/2 tsp. garlic powder\n2 c. shredded cooked chicken\n8 oz. ball mozzarella, torn\n1/3 c. blue cheese, crumbled\n1/4 Red onion, thinly sliced\n2 Green onions, thinly sliced"
+                },
+                {
+                    "name": "Smoked Salmon Pasta",
+                    "slug": "smoked-salmon-pasta",
+                    "image": "pasta.png",
+                    "description":
+                    "In a large pot of salted boiling water, cook pasta according to package directions until al dente. Drain, reserving ½ cup pasta water, and return to pot.\nStep 2\nIn a large skillet over medium heat, heat oil. Add onion and cook until soft, 5 minutes, then add garlic and cook until fragrant, 1 minute more. Add wine and cook until almost completely reduced, 5 minutes. Add heavy cream and lemon juice and cook until thickened, another 5 minutes. Season with salt and pepper. \nStep 3\nAdd salmon, capers, and dill and cook until salmon is warmed through, 2 minutes, then toss sauce and pasta together. Add ¼ cup pasta water if sauce is too thick. Garnish with more dill to serve."
+                }
+            ]
+        }
+
+    ]
+}

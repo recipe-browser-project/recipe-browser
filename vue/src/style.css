@@ -88,3 +88,12 @@ button:focus-visible {
         background-color: #f9f9f9;
     }
 }
+
+section {
+    padding: 2.5rem 0;
+}
+
+.destination-details p,
+section[slug] {
+    text-align: justify;
+}
