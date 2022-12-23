@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, useRoute } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import sourceData from '@/data.json'
 
@@ -10,7 +10,7 @@ const routes = [
         component: ()=>import('@/views/DestinationShow.vue'),
         // props: route=> ({...route.params, id: parseInt(route.params.id)})
         props: route=> ({...route.params, id: parseInt(route.params.id)}),
-        beforeEnter(to, from){
+        beforeEnter(to){
             const exists = sourceData.destinations.find(
                 destination => destination.id === parseInt(to.params.id)
             )

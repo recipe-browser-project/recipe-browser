@@ -3,9 +3,8 @@
         <h1>{{experience.name}}</h1>
         <div style="display: flex; justify-content: left; gap: 1rem;">
             <img :src="`/images/${experience.image}`" :alt="experience.name">
-            <div class="ingredients">
+            <div v-if="experience.ingredients" class="ingredients">
                 <p
-                    v-if="experience.ingredients"
                     v-for="(line,lineNumber) of experience.ingredients.split('\n')"
                     v-bind:key="lineNumber"
                 style="padding: 0; margin: 0;">
@@ -44,7 +43,7 @@ export default {
 <style>
 .ingredients {
     max-height: 350px;
-    display: inline-flex; 
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.2rem 1rem;
