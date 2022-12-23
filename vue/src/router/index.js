@@ -6,7 +6,7 @@ import Calorie_friendly from "@/views/Calorie_friendly.vue";
 
 const routes = [
     { path: "/", name: "Home", component: Home },
-    { path: "/about", name: "About", component: Recipe },
+    { path: "/recipe", name: "Recipe", component: Recipe },
     { path: "/discover", name: "Discover", component: Discover },
     {
         path: "/calorie_friendly",
