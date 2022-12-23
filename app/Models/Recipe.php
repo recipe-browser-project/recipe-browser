@@ -8,21 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Recipe extends Model
 {
     use HasFactory;
-    /**
-    * The attributes that are mass assignable.
-    *
-    * @var array<int, string>
-    */
-   protected $fillable = [
-       'user_id',
-       'title',
-       'content',
-   ];
-
-    public function user() {
-        return $this->belongsTo(User::class);
-    }
-    public function ingredients() {
-        return $this->belongsToMany(Ingredient::class, 'ingredient_recipe');
-    }
 }
