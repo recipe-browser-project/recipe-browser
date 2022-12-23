@@ -1,21 +1,54 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
-import Recipe from "@/views/Recipe.vue";
-import Discover from "@/views/Discover.vue";
-import Calorie_friendly from "@/views/Calorie_friendly.vue";
+import sourceData from '@/data.json'
 
 const routes = [
     { path: "/", name: "Home", component: Home },
-    { path: "/recipe", name: "Recipe", component: Recipe },
-    { path: "/discover", name: "Discover", component: Discover },
     {
-        path: "/calorie_friendly",
-        name: "Calorie_friendly",
-        component: Calorie_friendly,
+        path: '/destination/:id/:slug',
+        name: 'destination.show',
+        component: ()=>import('@/views/DestinationShow.vue'),
+        // props: route=> ({...route.params, id: parseInt(route.params.id)})
+        props: route=> ({...route.params, id: parseInt(route.params.id)}),
+        beforeEnter(to){
+            const exists = sourceData.destinations.find(
+                destination => destination.id === parseInt(to.params.id)
+            )
+            if(!exists) return {
+                name: 'NotFound',
+                params: { pathMatch: to.path.split('/').slice(1) },
+                query: to.query,
+                hash: to.hash,
+            }
+        },
+        children:[
+            {
+                path: ':experienceSlug',
+                name: 'experience.show',
+                component: () => import('@/views/ExperienceShow.vue'),
+                props: route=> ({...route.params, id: parseInt(route.params.id)})
+            }
+        ]
     },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: ()=> import('@/views/NotFound.vue')
+    }
+    // {
+    //     path: '/destination/:id/:slug/:experienceSlug',
+    //     name: 'experience.show',
+    //     component: () => import('@/views/ExperienceShow.vue'),
+    //     props: route=> ({...route.params, id: parseInt(route.params.id)})
+    // }
 ];
 const router = createRouter({
     history: createWebHistory(),
     routes,
+    scrollBehavior (to, from, savedPosition) {
+        return savedPosition || new Promise((resolve)=>{
+            setTimeout(()=> resolve({ top:0 }), 300)
+        })
+    }
 });
 export default router;

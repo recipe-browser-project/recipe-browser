@@ -34,7 +34,7 @@
 // })
 import { test } from "vitest";
 import { render } from "@testing-library/vue";
-import Discover from "../views/Discover.vue";
+import Discover from "../views/Lunch.vue";
 
 test("It renders correctly", () => {
     const { getByText } = render(Discover);

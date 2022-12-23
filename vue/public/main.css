@@ -26,7 +26,7 @@ a:visited {
 
 /* Home */
 .home img {
-    max-width: 230px;
+    max-width: 300px;
 }
 .home .destinations {
     display: flex;
@@ -105,8 +105,7 @@ a {
     text-align: center;
 }
 .experiences img {
-    width: 250px;
-    height: 150px;
+    max-width: 300px;
     object-fit: cover;
     display: block;
 }
