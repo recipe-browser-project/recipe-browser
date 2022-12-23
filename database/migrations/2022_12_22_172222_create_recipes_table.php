@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\User;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -13,15 +14,15 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('comments', function (Blueprint $table) {
+        Schema::create('recipes', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->unsignedBigInteger('recipe_id');
-            $table->string('content');
+            $table->string('title');
+            $table->unsignedBigInteger('createdBy');
+            $table->longText('recipe_description');
+            $table->longText('recipe_instruction');
+            $table->integer('serving_size');
             $table->timestamps();
-
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->foreign('recipe_id')->references('id')->on('recipes');
+            $table->foreign('createdBy')->references('id')->on('users')->constrained();
         });
     }
 
@@ -32,6 +33,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('comments');
+        Schema::dropIfExists('recipes');
     }
 };
